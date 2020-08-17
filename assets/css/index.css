@@ -1,0 +1,35 @@
+.nu1 p {
+	font-size: 100px;
+	margin: auto;
+
+}
+
+.nu1{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	font-size: 100px;
+	line-height: 200px;
+	
+}
+
+.nu2{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	font-size: 100px;
+	line-height: 200px;
+}
+
+button{
+	width: 410px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAVASCRIPT INTERMEDIARIO - AULA 05 EVENTOS DE FORMULARIO</title>
+
+  <script type="text/javascript" src="assets/js/formulario.js"></script>
+
+</head>
+<body>
+  <form method="POST" onsubmit="">
+    <input type="text" name="nome" onfocus="foco()" onblur="saiu()"/><br><br>
+
+    <select name="cidade" onchange="mudouOpcao(this)">
+      <option>Mato Grosso</option>
+      <option>Sao Paulo</option>
+      <option>Rio de Janeiro</option>
+      <option>Recife</option>
+    </select><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+  
+
+</body>
+</html>
